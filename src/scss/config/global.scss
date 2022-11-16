@@ -1,0 +1,84 @@
+/*-------------------------------------------------keyframes__wrapper--------------------------------*/
+//Плавное появление страницы
+@keyframes opening {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+
+/*-------------------------------------------------wrapper--------------------------------*/
+.wrapper {
+	width: 100%;
+	background-color: rgba(236, 243, 251, 1);
+	box-sizing: border-box;
+	font-family: 'Montserrat';
+	font-weight: 400;
+	position: relative;
+	z-index: 2;
+	overflow: hidden;
+	animation: opening .6s ease;
+	cursor: default;
+}
+
+/*-------------------------------------------------container--------------------------------*/
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+
+@media (max-width: 1264px) {
+	.container{
+		width: 100%;	
+		padding: 0px 52px;
+	}
+}
+
+@media (max-width: 375px) {
+	.container{
+		padding: 0px 13px;
+	}
+}
+
+/*-------------------------------------------------title - У всех блоков одинаковые, сделаю заготовку--------------------------------*/
+.title{
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 140%;
+	text-align: center;
+	color: #171717;
+	margin-top: 120px;
+	margin-bottom: 37px;
+
+	transform: translate(0px, 100px);
+	opacity: 0;
+	transition: all .8s ease 0s;
+	
+	&._visible {
+		opacity: 1;
+		transform: translate(0px, 0px);
+	}
+}
+
+@media (max-width: 768px) {
+	.title{
+		margin-top: 100px;
+		margin-bottom: 32px;
+	}
+}
+
+@media (max-width: 420px) {
+	.title{
+		margin-bottom: 28px;
+	}
+}
+
+#arrow__everywhere{
+	width: 12px;
+	height: 12px;
+}

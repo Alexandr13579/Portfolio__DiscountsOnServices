@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('html/head.html', {
+    'title': 'About Us'
+  })
+  <body>
+    <div class="wrapper">
+        @@include('html/header.html', {})
+        <main>
+			<img src="@img/header/registred/man__black.svg" alt="">
+			<section class="main__about about">
+				<div class="container">
+					<div class="title anim-items no-visible">About us</div>
+					<div class="about__blocks">
+						<div class="about__block about__block-text anim-items no-visible">
+							<img class="about__logo" src="@img/main/main__about/logo.jpg" alt="logo">
+								<p class="about__text">We offer you a subscription to various media services at the best price.</p>
+								<p class="about__text">We have partnered with several companies to help you find the best prices for your media subscriptions and provide you with the best prices for the Premium subscriptions you want.</p>
+								<p class="about__text" id="about__br">It's simple, fast and economical.</p>
+						</div>
+						<div class="about__block about__image anim-items no-visible"><img class="about__img" src="@img/main/main__about/about__1440.jpg" alt="photo"></div>
+					</div>
+				</div>
+			</section>
+			@@include('html/popup.html', {})
+		</main>
+        @@include('html/footer.html', {})
+    </div>
+    <script src="js/app.min.js"></script>
+  </body>
+</html> 

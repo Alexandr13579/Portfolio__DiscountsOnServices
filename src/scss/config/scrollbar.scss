@@ -1,0 +1,15 @@
+// Firefox
+* {
+    ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: rgb(232, 231, 231);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgb(156, 156, 156);
+    border-radius: 20px;
+  }
+}

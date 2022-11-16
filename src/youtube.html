@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('html/head.html', {
+    'title': 'YouTube'
+  })
+  <body>
+    <div class="wrapper">
+      @@include('html/header.html', {})
+      <main class="main">
+        <section class="main__price price">
+            <div class="container">
+                <div class="price__title anim-items no-visible">YouTube Premium</div>
+                <div class="price__sub-title anim-items no-visible">Select the subscription type for a period of <span>12 months</span>:</div>
+                <div class="price__blocks">
+                    <div class="price__block anim-items no-visible" data-list="one">
+                        <div class="price__block-title">Music</div>
+                        <ul class="price__block-text">
+                            <li class="block__text-item">
+                                <img src="@img/subscriptions/youtube-_galochka.svg" alt="-">
+                                <p>Listen to music without ads, in the background and offline</p>
+                            </li>
+                            <li class="block__text-item">
+                                <img src="@img/subscriptions/youtube-_galochka.svg" alt="-">
+                                <p>Play anywhere - even offline</p>
+                            </li>
+                        </ul>
+                        <div class="price__block-price">
+                            <img src="@img/subscriptions/dollar.svg" alt="dollars"><p class="price__six">47</p><p class="price__twelve">80</p>
+                        </div>
+                        <button class="price__block-button" data-button="one">Get started</button>
+                    </div>
+                    <div class="price__block anim-items no-visible" data-list="two">
+                        <div class="price__block-title">Premium</div>
+                        <ul class="price__block-text">
+                            <li class="block__text-item">
+                                <img src="@img/subscriptions/youtube-_galochka.svg" alt="-">
+                                <p>YouTube and YouTube Music without ads, in the background and offline</p>
+                            </li>
+                            <li class="block__text-item">
+                                <img src="@img/subscriptions/youtube-_galochka.svg" alt="-">
+                                <p>Ad-free music listening, play offline, on-demand playback</p>
+                            </li>
+                        </ul>
+                        <div class="price__block-price">
+                            <img src="@img/subscriptions/dollar.svg" alt="dollars"><p class="price__six"><span>57</span></p><p class="price__twelve"><span>100</span></p>
+                        </div>
+                        <button class="price__block-button" data-button="two">Get started</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main__friends friends">
+            <div class="container">
+                <div class="friends__blocks anim-items no-visible">
+                    <div class="friends__block1">
+                        <h3 class="friends__title">Invite friends</h3>
+                        <p class="friends__sub-title">Starting today up to 50% for NETFLIX, YOUTUBE, SPOTIFY subscriptions with a secure payment from PAYPAL</p>
+                    </div>
+                    <div class="friends__block2">
+                        <h3 class="friends__block2-title">Click on the link</h3>
+                        <div class="friends__copy">
+                            <button class="friends__button">Discounts On Services</button>
+                            <img src="@img/main/main__friends/Vector.svg" alt="copy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main__faq faq">
+            <div class="container">
+                <div class="title anim-items no-visible">FAQ</div>
+                <ul class="faq__blocks">
+                    <li class="faq__block anim-items no-visible" data-block="one">
+                        <div class="faq__text"><p>The set time has passed, but the invoice has not yet arrived, what should I do?</p>
+                            <div data-sub-text="one" class="faq__sub-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum reiciendis saepe, cupiditate, ipsa esse atque beatae dicta repellat optio enim voluptas impedit natus praesentium eligendi, excepturi odit doloribus vel officia.
+                            </div>
+                        </div>
+                        <div class="faq__image"><img data-arrow="one" class="faq__img" src="@img/main/main__faq/Vector.svg" alt="arrow"></div>
+                    </li>
+                    <li class="faq__block anim-items no-visible" data-block="two">
+                        <div class="faq__text"><p>Can I change my Netflix account email and password after purchase?</p>
+                            <div data-sub-text="two" class="faq__sub-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum reiciendis saepe, cupiditate, ipsa esse atque beatae dicta repellat optio enim voluptas impedit natus praesentium eligendi, excepturi odit doloribus vel officia.
+                            </div>
+                        </div>
+                        <div class="faq__image"><img data-arrow="two" class="faq__img" src="@img/main/main__faq/Vector.svg" alt="arrow"></div>
+                    </li>
+                    <li class="faq__block anim-items no-visible" data-block="three">
+                        <div class="faq__text"><p>Can I add a phone number for password recovery?</p>
+                            <div data-sub-text="three" class="faq__sub-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum reiciendis saepe, cupiditate, ipsa esse atque beatae dicta repellat optio enim voluptas impedit natus praesentium eligendi, excepturi odit doloribus vel officia.
+                            </div>
+                        </div>
+                        <div class="faq__image"><img data-arrow="three" class="faq__img" src="@img/main/main__faq/Vector.svg" alt="arrow"></div>
+                    </li>
+                    <li class="faq__block anim-items no-visible" data-block="four">
+                        <div class="faq__text"><p>How soon will I receive the account information I ordered?</p>
+                            <div data-sub-text="four" class="faq__sub-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum reiciendis saepe, cupiditate, ipsa esse atque beatae dicta repellat optio enim voluptas impedit natus praesentium eligendi, excepturi odit doloribus vel officia.
+                            </div>
+                        </div>
+                        <div class="faq__image"><img data-arrow="four" class="faq__img" src="@img/main/main__faq/Vector.svg" alt="arrow"></div>
+                    </li>
+                    <li class="faq__block anim-items no-visible" data-block="five">
+                        <div class="faq__text"><p>How to pay?</p>
+                            <div data-sub-text="five" class="faq__sub-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum reiciendis saepe, cupiditate, ipsa esse atque beatae dicta repellat optio enim voluptas impedit natus praesentium eligendi, excepturi odit doloribus vel officia.
+                            </div>
+                        </div>
+                        <div class="faq__image"><img data-arrow="five" class="faq__img" src="@img/main/main__faq/Vector.svg" alt="arrow"></div>
+                    </li>
+                </ul>
+                <div class="faq__button anim-items no-visible"><button class="faq__btn">Support</button></div>
+            </div>
+        </section>
+        @@include('html/popup.html', {})
+    </main>
+      @@include('html/footer.html', {})
+    </div>
+    <script src="js/app.min.js"></script>
+  </body>
+</html> 

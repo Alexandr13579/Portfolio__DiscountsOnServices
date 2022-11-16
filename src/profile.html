@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('html/head.html', {
+    'title': 'My Account'
+  })
+  <body>
+    <div class="wrapper">
+        @@include('html/header.html', {})
+        <main>
+			<section class="main__data data">
+				<div class="container">
+					<div class="data__title-block">
+						<h2 class="data__title anim-items no-visible">Personal data management</h2>
+						<div class="data__exit anim-items no-visible">
+							<img class="data__exit-image" src="@img/main/main__data/info__black.svg" alt="arrow">
+							<p class="data__exit-text">Exit the office</p>
+						</div>
+					</div>
+					<div class="data__blocks anim-items no-visible">
+						<div class="data__block block-data1">
+							<ul class="block-data1__menu">
+								<li class="block-data1__item data1__item1">
+									<img id="block-data1__image1" src="@img/main/main__data/info__black.svg" alt="info">
+									<p class="block-data1__text">Account info</p>
+								</li>
+								<li class="block-data1__item data1__item2">
+									<img id="block-data1__image2" src="@img/main/main__data/subscriptions__black.svg" alt="subscriptions">
+									<p class="block-data1__text">My Subscriptions</p>
+								</li>
+							</ul>
+						</div>
+						<div class="data__block block-data2">
+							<h3 class="block-data2__title">Account info</h3>
+							<form class="block-data2__form">
+								<label for="id__user">ID user</label>
+								<input type="text" id="id__user" value="123456789" disabled autocomplete="on">
+								<label for="name__user">What is your name?</label>
+								<input type="text" id="name__user" placeholder="Enter your name" autocomplete="on">
+								<label for="email__user">E-mail</label>
+								<input type="email" id="email__user" placeholder="Enter your e-mail" autocomplete="on">
+								<button class="block-data2__save">Save changes</button>
+							</form>
+						</div>
+						<div class="data__block block-data3">
+							<div class="block-data3__blocks">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="main__friends friends">
+				<div class="container">
+					<div class="friends__blocks anim-items no-visible">
+						<div class="friends__block1">
+							<h3 class="friends__title">Invite friends</h3>
+							<p class="friends__sub-title">Starting today up to 50% for NETFLIX, YOUTUBE, SPOTIFY subscriptions with a secure payment from PAYPAL</p>
+						</div>
+						<div class="friends__block2">
+							<h3 class="friends__block2-title">Click on the link</h3>
+							<div class="friends__copy">
+								<button class="friends__button">Discounts On Services</button>
+								<img src="@img/main/main__friends/Vector.svg" alt="copy">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			@@include('html/popup.html', {})
+		</main>
+        @@include('html/footer.html', {})
+    </div>
+    <script src="js/app.min.js"></script>
+  </body>
+</html> 
