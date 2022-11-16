@@ -30,7 +30,7 @@
   "bugs": {
     "url": "https://github.com/Alexandr13579/Portfolio__DiscountsOnServices"
   },
-  "__homepage__": "https://github.com/alexandr13579.github.io/Portfolio__DiscountsOnServices/",
+  "homepage": "https://github.com/alexandr13579.github.io/Portfolio__DiscountsOnServices/",
   "devDependencies": {
     "@babel/core": "latest",
     "@babel/polyfill": "latest",
