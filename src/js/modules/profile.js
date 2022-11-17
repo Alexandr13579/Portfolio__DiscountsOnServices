@@ -5,13 +5,13 @@ if (document.querySelector('.main__data')) {
 	let blockData1Menu = document.querySelector('.block-data1__menu')
 	blockData1Menu.addEventListener('click', event => {
 		if (event.target.closest('.data1__item1') ) {
-			document.querySelector('.data1__item2').classList.remove('item__active');
-			document.querySelector('.data1__item1').classList.add('item__active');
+			document.querySelector('.data1__item2').classList.remove('item__actives');
+			document.querySelector('.data1__item1').classList.add('item__actives');
 			document.querySelector('.block-data2').classList.remove('block-data2__active');
 			document.querySelector('.block-data3').classList.remove('block-data3__active');
 		} else if (event.target.closest('.data1__item2') ) {
-				document.querySelector('.data1__item2').classList.add('item__active');
-				document.querySelector('.data1__item1').classList.remove('item__active');
+				document.querySelector('.data1__item2').classList.add('item__actives');
+				document.querySelector('.data1__item1').classList.remove('item__actives');
 				document.querySelector('.block-data2').classList.add('block-data2__active');
 				document.querySelector('.block-data3').classList.add('block-data3__active');
 		}
