@@ -1874,6 +1874,10 @@ h6 {
   transition: all ease 0.4s;
 }
 
+.block-data1__item.item__active {
+  background-color: #F1F4F8;
+}
+
 .block-data1__item img {
   width: 20px;
   height: 20px;
