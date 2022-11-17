@@ -101,6 +101,10 @@
 		cursor: pointer;
 		transition: all ease .4s;
 
+		&.item__active{
+			background-color: #8F8F8F;
+		}
+
 		img{
 			width: 20px;
 			height: 20px;
