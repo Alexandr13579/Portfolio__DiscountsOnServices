@@ -13,6 +13,6 @@
 - Изменение данных(email, name) Usera, с дальнейшем сохранением в LS и корректным отображением в личном кабинете;
 - А так же множество отдельных всплывающих окон для взаимодействия с Userоm(тех.поддержка, запрос на дополнительную компанию для подписки и т.д.);
 - 
-![screen](readme_image/main-sub.jpg) ![screen](readme_image/profile-sub.jpg)
+![screen](readme_image/main1-sub.jpg) ![screen](readme_image/profile-sub.jpg)
 
 
